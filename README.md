@@ -6,10 +6,8 @@ command.
 
 ## Usage
 
-'''
-(require '[ypcat-auth.core :refer :all])
-(ypcat-passwd-authenticated? "username" "password")
-'''
+    (require '[ypcat-auth.core :refer :all])
+    (ypcat-passwd-authenticated? "username" "password")
 
 ## License
 
